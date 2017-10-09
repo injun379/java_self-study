@@ -1,5 +1,8 @@
 package ch6;
 
+// 3.6 JVM 메모리의 구조
+
+// Call Stack 구조
 class CallStackTest2 {
 	public static void main(String args[]) {
 		System.out.println("main(String args[])이 시작되었음.");

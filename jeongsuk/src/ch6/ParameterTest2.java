@@ -1,6 +1,7 @@
 package ch6;
 
-// 기본형 매개변수와 참조형 매개변수
+// 3.7 기본형 매개변수와 참조형 매개변수
+
 // 참조형 매개변수
 class ParameterTest2 {
 	public static void main(String args[]) {

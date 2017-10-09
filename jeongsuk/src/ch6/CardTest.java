@@ -1,5 +1,7 @@
 package ch6;
 
+// 3.2 클래스 변수와 인스턴스 변수
+
 class CardTest {
 	public static void main(String args[]) {
 		System.out.println("Card.width = " + Card.width);
