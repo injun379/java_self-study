@@ -1,4 +1,4 @@
-package ch6;
+package ch7;
 
 class Card {
 	final int NUMBER;		// 상수지만 선언과 함께 초기화 하지 않고,
@@ -21,7 +21,7 @@ class Card {
 }
 
 class FinalCardTest {
-	public static void Main(String args[]) {
+	public static void main(String args[]) {
 		Card c = new Card("HEART", 10);
 //		c.NUMBER = 5;
 		System.out.println(c.KIND);

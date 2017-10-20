@@ -1,4 +1,4 @@
-package ch6;
+package ch7;
 
 class StaticTest {
 	static int width = 200;		// 클래스 변수(static 변수)

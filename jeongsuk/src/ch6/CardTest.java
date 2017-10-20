@@ -4,14 +4,14 @@ package ch6;
 
 class CardTest {
 	public static void main(String args[]) {
-		System.out.println("Card.width = " + Card1.width);
-		System.out.println("Card.height = " + Card1.height);
+		System.out.println("Card.width = " + Card.width);
+		System.out.println("Card.height = " + Card.height);
 		
-		Card1 c1 = new Card1();
+		Card c1 = new Card();
 		c1.kind = "Heart";
 		c1.number = 7;
 		
-		Card1 c2 = new Card1();
+		Card c2 = new Card();
 		c2.kind = "Spade";
 		c2.number = 4;
 		
@@ -28,7 +28,7 @@ class CardTest {
 
 }
 
-class Card1 {
+class Card {
 	String kind;		// 카드의 무늬 - 인스턴스 변수
 	int number;			// 카드의 숫자 - 인스턴스 변수
 	static int width = 100;	// 카드의 폭 - 클래스 변수
